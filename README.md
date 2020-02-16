@@ -6,7 +6,9 @@ The fameous Titanic project on Kaggle.coms
 2. _**0.76076**_  (2/13/2020)---- RandomForestClassifier Model
 
 ## Updata logs
-1. v2 : introduce a wonderfull and brillient tool for EDA:
+1. v1 : simple feature engieering + SVM
+2. v2 : careful EDA + common feature engieering + assemble algrithm ( voting-classifier:'soft' vote)
+3. v3 : introduce a wonderfull and brillient tool for EDA.
 ```
 import pandas_profiling as pp
 pp.ProfileReport(data)
